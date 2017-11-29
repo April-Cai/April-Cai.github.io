@@ -1,7 +1,1 @@
----
-layout: null
----
-
-jQuery(document).ready(function($) {
-  /* Enter your code */
-});
+jQuery(document).ready(function(e){});
