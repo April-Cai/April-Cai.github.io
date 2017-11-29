@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2017-04-12 05:16:01 -0300 
+date:   2017-04-12 05:16:01 -0300
 categories: blog
 tags: ['example','welcome','jekyll', 'typing', 'responsive', 'simple']
 published: true
-comments: true 
+comments: true
 excerpted: |
     You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site ...
 day_quote:
     title: "Quote Day"
     content: |
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         (Mr. Lorem)
 
 # Does not change and does not remove 'script' variables
@@ -29,7 +29,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-{% fa fa-code|20px %} Jekyll also offers powerful support for code snippets: 
+{% fa fa-code|20px %} Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
 def print_hi(name)
@@ -100,8 +100,8 @@ Commodi eaque, temporibus quia praesentium dolores repellat minus corporis illo 
 <br>
 
 {% label Ruby|10px %}
-{% label HTML5|20px %}
-{% label CSS3|30px %}
+{% label HTML|20px %}
+{% label CSS|30px %}
 {% label JQuery|40px %}
 
 <br>
@@ -125,7 +125,7 @@ function fancyAlert(arg) {
 
 {% gist a3672f19f0f2ac35810b %}
 
-[jekyll-docs]: https://jekyllrb.com/docs/home 
+[jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
@@ -140,6 +140,3 @@ To use, see:[Jekyll Spotify Plugin - Doc](http://williamcanin.com/jekyll-spotify
 Goodbye! :wink:
 
 {% endpost #9D9D9D %}
-
-
-

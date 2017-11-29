@@ -27,10 +27,14 @@ If you wanted to know about my favorite chores, this is the correct page. You fi
 
 ##  Major collaborations
 
-**[Typing Theme](https://github.com/williamcanin/typing-theme)**: Creating themes for Jekyll   
 
-
-|[Typing Jekyll Template](https://github.com/williamcanin/typing-jekyll-template){:target="_blank"} <i class="fa fa-external-link"></i>|
+|[FormatSystem](https://github.com/April-Cai/FormatSystem){:target="_blank"} <i class="fa fa-external-link"></i>|
 --------------------------|----------------------------
 | **Status**: <label style="color:green;">Active</label> |
-| **Description**: Typing, is a template for Jekyll built especially for those who want to have a blog and pages quickly and lightly. |
+| **Description**: Paper format examination and file management system for Undergraduates |
+
+
+|[Tuhu.Monitor](https://github.com/April-Cai/Tuhu.Monitor){:target="_blank"} <i class="fa fa-external-link"></i>|
+--------------------------|----------------------------
+| **Status**: <label style="color:green;">Finished</label> |
+| **Description**: Website visiting speed monitoring and client dns information resolving |
