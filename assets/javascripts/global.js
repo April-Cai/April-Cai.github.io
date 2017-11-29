@@ -1,1 +1,1 @@
-jQuery(document).ready(function(e){e(".post > .row.content a").addClass("ga-event"),e(".hello > .row.content a").addClass("ga-event"),e("a.ga-event").attr("onclick","ga('send','event','LinkTo',this.href,'https://april-cai.github.io/me');")});
+jQuery(document).ready(function(t){t(".post > .row.content a").addClass("ga-event"),t(".hello > .row.content a").addClass("ga-event"),t("a.ga-event").attr("onclick","ga('send','event','LinkTo',this.href,'https://april-cai.github.io');")});

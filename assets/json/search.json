@@ -3,14 +3,14 @@
     {
       "title"    : "My first post!",
       "tags"     : "filmcomments",
-      "url"     : "/me/blog/my-first-post/",
+      "url"     : "/blog/my-first-post/",
       "date"     : "2017-11-28 05:16:01 -0300"
     } ,
   
     {
       "title"    : "Welcome to Jekyll!",
       "tags"     : "example, welcome, jekyll, typing, responsive, simple",
-      "url"     : "/me/blog/welcome-to-jekyll/",
+      "url"     : "/blog/welcome-to-jekyll/",
       "date"     : "2017-04-12 05:16:01 -0300"
     } 
   
