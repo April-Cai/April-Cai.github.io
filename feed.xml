@@ -7,18 +7,51 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Dec 2017 00:42:40 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2017 00:42:40 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 00:21:15 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 00:21:15 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
+        <title>Paper collection</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#nerank-a-graph-based-approach-for-entity-ranking-in-document-collections&quot; id=&quot;markdown-toc-nerank-a-graph-based-approach-for-entity-ranking-in-document-collections&quot;&gt;NERank+: a graph-based approach for entity ranking in document collections&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#event-phase-oriented-news-summarization&quot; id=&quot;markdown-toc-event-phase-oriented-news-summarization&quot;&gt;Event phase oriented news summarization&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#dkgbuilder-an-architecture-for-building-a-domain-knowledge-graph-from-scratch&quot; id=&quot;markdown-toc-dkgbuilder-an-architecture-for-building-a-domain-knowledge-graph-from-scratch&quot;&gt;DKGBuilder: An Architecture for Building a Domain Knowledge Graph from Scratch&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#error-link-detection-and-correction-in-wikipedia&quot; id=&quot;markdown-toc-error-link-detection-and-correction-in-wikipedia&quot;&gt;Error Link Detection and Correction in Wikipedia&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#learning-user-credibility-for-product-ranking&quot; id=&quot;markdown-toc-learning-user-credibility-for-product-ranking&quot;&gt;Learning user credibility for product ranking&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#event-phase-extraction-and-summarization&quot; id=&quot;markdown-toc-event-phase-extraction-and-summarization&quot;&gt;Event Phase Extraction and Summarization&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#detecting-anomaly-in-data-streams-by-fractal-model&quot; id=&quot;markdown-toc-detecting-anomaly-in-data-streams-by-fractal-model&quot;&gt;Detecting anomaly in data streams by fractal model&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#challenges-in-chinese-knowledge-graph-construction&quot; id=&quot;markdown-toc-challenges-in-chinese-knowledge-graph-construction&quot;&gt;Challenges in Chinese knowledge graph construction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#dish-comment-summarization-based-on-bilateral-topic-analysis&quot; id=&quot;markdown-toc-dish-comment-summarization-based-on-bilateral-topic-analysis&quot;&gt;Dish comment summarization based on bilateral topic analysis  &lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#product-oriented-review-summarization-and-scoring&quot; id=&quot;markdown-toc-product-oriented-review-summarization-and-scoring&quot;&gt;Product-oriented review summarization and scoring&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#semi-ascalableentitymatching-system-based-on-mapreduce&quot; id=&quot;markdown-toc-semi-ascalableentitymatching-system-based-on-mapreduce&quot;&gt;SEMI: A Scalable Entity Matching System Based on...</description>
+        <pubDate>Sun, 03 Dec 2017 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/paper/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/paper/</guid>
+        
+        <tag>research</tag>
+        
+      </item>
+    
+      <item>
+        <title>Dad, where are we going</title>
+        <description>&lt;p&gt;After being a college student, I just tend to watch less tv shows and more tv series than before. One exception is &lt;code&gt;Dad, where are we going&lt;/code&gt;. Imagine the flashlights around the children, I still can’t help watching it once a week. And next week the fifth season is going to the end. It’s not a signature to make a difference to myself or realize something significant. Maybe I’m just eager to write down the feelings in this certain period.&lt;/p&gt; &lt;p&gt;Various parents and various children make up various families.There is no right or wrong comments since the social background and...</description>
+        <pubDate>Sun, 03 Dec 2017 09:00:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/dad-wherearewegoing/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/dad-wherearewegoing/</guid>
+        
+        <tag>bookComment</tag>
+        
+      </item>
+    
+      <item>
         <title>Active Directory</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;example&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt; &lt;p&gt;These days, I am doing some work on &lt;code&gt;Active Directory&lt;/code&gt; administration system meant to monitor the user, group under the same domain environment.&lt;/p&gt; &lt;p&gt;Suppose that there are hundreds of users in a company, administrators should add his or her entry permission to each user account. It’s quite annoying, right? So its necessary to administrate all users and create groups with different &lt;code&gt;authorizations&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;The Lightweight Directory Access Protocol (LDAP) is an open, standards-based, mature, efficient, extensible, and popular means of interacting with the data contained in directory...</description>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#example&quot; id=&quot;markdown-toc-example&quot;&gt;Example&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt; &lt;p&gt;These days, I am doing some work on &lt;code&gt;Active Directory&lt;/code&gt; administration system meant to monitor the user, group under the same domain environment.&lt;/p&gt; &lt;p&gt;Suppose that there are hundreds of users in a company, administrators should add his or her entry permission to each user account. It’s quite annoying, right? So its necessary to administrate all users and create groups with different &lt;code&gt;authorizations&lt;/code&gt;.&lt;/p&gt; &lt;p&gt;The Lightweight Directory Access Protocol (LDAP) is an open, standards-based, mature, efficient, extensible, and popular means of interacting with the data contained in directory...</description>
         <pubDate>Fri, 01 Dec 2017 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/active-director/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/active-director/</guid>
         
-        <tag>software architecture</tag>
+        <tag>softwareArchitecture</tag>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#examples&quot; id=&quot;markdown-toc-examples&quot;&gt;Examples&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#-table&quot; id=&quot;markdown-toc--table&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-table&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Table&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#-list&quot; id=&quot;markdown-toc--list&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-list&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; List&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#-image-responsive-plugin-imager&quot; id=&quot;markdown-toc--image-responsive-plugin-imager&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-file-image-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Image responsive (plugin Imager)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#code-in-one-line---text&quot; id=&quot;markdown-toc-code-in-one-line---text&quot;&gt;Code in one line - Text&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#unlighted-code&quot; id=&quot;markdown-toc-unlighted-code&quot;&gt;Unlighted code&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#gist-code&quot; id=&quot;markdown-toc-gist-code&quot;&gt;Gist code&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#--music&quot; id=&quot;markdown-toc---music&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-music&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Music&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Hi! :hand:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.webpagefx.com/tools/emoji-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;Emoji Syntax&lt;/a&gt;&lt;/p&gt; &lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</description>
+        <pubDate>Wed, 12 Apr 2017 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/welcome-to-jekyll/</guid>
+        
+        <tag>example</tag>
         
       </item>
     
