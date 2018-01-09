@@ -7,8 +7,8 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jan 2018 23:11:01 +0800</pubDate>
-    <lastBuildDate>Tue, 09 Jan 2018 23:11:01 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Jan 2018 23:17:50 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Jan 2018 23:17:50 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -30,17 +30,6 @@
         <guid isPermaLink="true">https://april-cai.github.io/blog/LeetCode595/</guid>
         
         <tag>Leetcode</tag>
-        
-      </item>
-    
-      <item>
-        <title>Paper collection</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#nerank-a-graph-based-approach-for-entity-ranking-in-document-collections&quot; id=&quot;markdown-toc-nerank-a-graph-based-approach-for-entity-ranking-in-document-collections&quot;&gt;NERank+: a graph-based approach for entity ranking in document collections&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#event-phase-oriented-news-summarization&quot; id=&quot;markdown-toc-event-phase-oriented-news-summarization&quot;&gt;Event phase oriented news summarization&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#dkgbuilder-an-architecture-for-building-a-domain-knowledge-graph-from-scratch&quot; id=&quot;markdown-toc-dkgbuilder-an-architecture-for-building-a-domain-knowledge-graph-from-scratch&quot;&gt;DKGBuilder: An Architecture for Building a Domain Knowledge Graph from Scratch&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#error-link-detection-and-correction-in-wikipedia&quot; id=&quot;markdown-toc-error-link-detection-and-correction-in-wikipedia&quot;&gt;Error Link Detection and Correction in Wikipedia&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#learning-user-credibility-for-product-ranking&quot; id=&quot;markdown-toc-learning-user-credibility-for-product-ranking&quot;&gt;Learning user credibility for product ranking&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#event-phase-extraction-and-summarization&quot; id=&quot;markdown-toc-event-phase-extraction-and-summarization&quot;&gt;Event Phase Extraction and Summarization&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#detecting-anomaly-in-data-streams-by-fractal-model&quot; id=&quot;markdown-toc-detecting-anomaly-in-data-streams-by-fractal-model&quot;&gt;Detecting anomaly in data streams by fractal model&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#challenges-in-chinese-knowledge-graph-construction&quot; id=&quot;markdown-toc-challenges-in-chinese-knowledge-graph-construction&quot;&gt;Challenges in Chinese knowledge graph construction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#dish-comment-summarization-based-on-bilateral-topic-analysis&quot; id=&quot;markdown-toc-dish-comment-summarization-based-on-bilateral-topic-analysis&quot;&gt;Dish comment summarization based on bilateral topic analysis  &lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#product-oriented-review-summarization-and-scoring&quot; id=&quot;markdown-toc-product-oriented-review-summarization-and-scoring&quot;&gt;Product-oriented review summarization and scoring&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#semi-ascalableentitymatching-system-based-on-mapreduce&quot; id=&quot;markdown-toc-semi-ascalableentitymatching-system-based-on-mapreduce&quot;&gt;SEMI: A Scalable Entity Matching System Based on...</description>
-        <pubDate>Sun, 03 Dec 2017 16:16:01 +0800</pubDate>
-        <link>https://april-cai.github.io/blog/paper0/</link>
-        <guid isPermaLink="true">https://april-cai.github.io/blog/paper0/</guid>
-        
-        <tag>research</tag>
         
       </item>
     
