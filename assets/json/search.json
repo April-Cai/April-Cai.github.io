@@ -1,6 +1,27 @@
 [
   
     {
+      "title"    : "535.Encode and Decode TinyURL",
+      "tags"     : "Leetcode",
+      "url"     : "/blog/LeetCode535/",
+      "date"     : "2018-01-09 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "595.Big Countries",
+      "tags"     : "Leetcode",
+      "url"     : "/blog/LeetCode595/",
+      "date"     : "2017-12-16 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "Paper collection",
+      "tags"     : "research",
+      "url"     : "/blog/paper0/",
+      "date"     : "2017-12-03 05:16:01 -0300"
+    } ,
+  
+    {
       "title"    : "Paper collection",
       "tags"     : "research",
       "url"     : "/blog/paper/",
