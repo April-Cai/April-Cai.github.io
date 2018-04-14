@@ -7,9 +7,33 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jan 2018 23:17:50 +0800</pubDate>
-    <lastBuildDate>Tue, 09 Jan 2018 23:17:50 +0800</lastBuildDate>
+    <pubDate>Sat, 14 Apr 2018 23:33:20 +0800</pubDate>
+    <lastBuildDate>Sat, 14 Apr 2018 23:33:20 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>城门开</title>
+        <description>
+&lt;blockquote&gt;
+  &lt;p&gt;在我的城市里，时间倒流，枯木逢春，消失的气味儿、声音和光线被召回，被拆除的四合院、胡同和寺庙恢复原貌，瓦顶排浪般涌向低低的天际线，鸽哨响彻深深地蓝天，孩子们熟知四季的变化，居民们胸有方向感。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;大妈在体育馆门口，“嘿，姑娘，给我俩老太婆照张相来”！于是欢欣地跑过去，被亲切融化在笑容里。北京人说话，或者东北人说话，听到声音就会使人发笑。这感觉怎么形容呢，仿佛听到两个小孩趴在地上，正儿八经地讨论蚂蚁挪步的方向。是被逗乐的笑吧，人家明明没在讲笑话来着。那么自然的就被照亮了，说不出为什么。&lt;/p&gt;
+
+&lt;p&gt;于是很喜欢北京的味道。有什么说什么，当然政治除外。北岛的这本散文他想要记下的是在北京城童年到青年的生活，计划经济、三年自然灾害、文化大革命这样讳莫如深的名词竟然是他们的普通日子。照道理说来，处于政治波动的时期，也许是灰色难捱的，但北岛他怀念，是城是人，不是历史。也许可以理解为，这座城市自始至终都没变过，它就像无辜的孩子看着这部默剧，庄重也好，困顿也好，荒谬也好，颓唐也好，都不重要。怎么能怪孩子呢，作怪的一直只有大人，对外界温度的感受和反应，才是他想要恢复的记忆。&lt;/p&gt;
+
+&lt;p&gt;痴迷于命运的纠缠和游离，过往人写起来，很容易就装作老者，”他后来的结局正印证此时的预言，当然这是后话了”，其实中间都有段漫长的故事可以说。散文之所以读起来舒服，是因为写得自然，小人物的形象尤其可以抓住人心。&lt;/p&gt;
+
+&lt;hr style=&quot;border-top: 1px solid #9D9D9D ; color: #9D9D9D ;&quot; class=&quot;endpost&quot; /&gt;
+
+</description>
+        <pubDate>Sat, 14 Apr 2018 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/readingnote/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/readingnote/</guid>
+        
+        <tag>bookcomment</tag>
+        
+      </item>
     
       <item>
         <title>535.Encode and Decode TinyURL</title>
@@ -18,7 +42,7 @@
         <link>https://april-cai.github.io/blog/LeetCode535/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/LeetCode535/</guid>
         
-        <tag>Leetcode</tag>
+        <tag>leetcode</tag>
         
       </item>
     
@@ -29,7 +53,7 @@
         <link>https://april-cai.github.io/blog/LeetCode595/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/LeetCode595/</guid>
         
-        <tag>Leetcode</tag>
+        <tag>leetcode</tag>
         
       </item>
     
@@ -51,7 +75,7 @@
         <link>https://april-cai.github.io/blog/dad-wherearewegoing/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/dad-wherearewegoing/</guid>
         
-        <tag>bookComment</tag>
+        <tag>bookcomment</tag>
         
       </item>
     
@@ -62,7 +86,7 @@
         <link>https://april-cai.github.io/blog/active-director/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/active-director/</guid>
         
-        <tag>softwareArchitecture</tag>
+        <tag>softwarearchitecture</tag>
         
       </item>
     
