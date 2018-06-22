@@ -1,14 +1,21 @@
 [
   
     {
-      "title"    : "毕业再见",
+      "title"    : "Leveraging semantic resources in diversified query expansion",
+      "tags"     : "research",
+      "url"     : "/blog/research/",
+      "date"     : "2018-06-21 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "Say goodbye",
       "tags"     : "disappeartomorrow",
       "url"     : "/blog/lalala/",
       "date"     : "2018-06-20 05:16:01 -0300"
     } ,
   
     {
-      "title"    : "城门开",
+      "title"    : "The city gate is open",
       "tags"     : "bookcomment",
       "url"     : "/blog/readingnote/",
       "date"     : "2018-04-14 05:16:01 -0300"
