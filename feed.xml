@@ -7,9 +7,20 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jun 2018 13:28:50 +0800</pubDate>
-    <lastBuildDate>Fri, 22 Jun 2018 13:28:50 +0800</lastBuildDate>
+    <pubDate>Tue, 26 Jun 2018 21:35:49 +0800</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 21:35:49 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>A Survey of Automatic Query Expansion in Information Retrieval</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#motivation&quot; id=&quot;markdown-toc-motivation&quot;&gt;Motivation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#keywords&quot; id=&quot;markdown-toc-keywords&quot;&gt;Keywords&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solutionhow-aqe-works&quot; id=&quot;markdown-toc-solutionhow-aqe-works&quot;&gt;Solution:HOW AQE WORKS&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Carpineto, C. and Romano, G. 2012. A survey of automatic query expansion in information retrieval. ACM Comput. Surv. 44, 1, Article 1 (January 2012), 50 pages.&lt;br /&gt; DOI = 10.1145/2071389.2071390 http://doi.acm.org/10.1145/2071389.2071390&lt;/p&gt; &lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt; &lt;p&gt;The relative ineffectiveness of information retrieval systems is largely caused by the inaccuracy with which a query formed by a few keywords models the actual user information need.&lt;br /&gt; One well known method to over- come this limitation is automatic query expansion (AQE), whereby the user’s original...</description>
+        <pubDate>Thu, 21 Jun 2018 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/QEsurvey/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/QEsurvey/</guid>
+        
+        <tag>research</tag>
+        
+      </item>
     
       <item>
         <title>Leveraging semantic resources in diversified query expansion</title>
@@ -49,6 +60,28 @@
       </item>
     
       <item>
+        <title>Compact query term selection using topically related text.</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#methods&quot; id=&quot;markdown-toc-methods&quot;&gt;Methods&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#comparison&quot; id=&quot;markdown-toc-comparison&quot;&gt;Comparison&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt; &lt;p&gt;This paper illustrate a method called PhRank, selecting terms from retrieved documents by a query.The effects follows:&lt;br /&gt; &lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806236.png&quot; title=&quot;1806236.png&quot; alt=&quot;1806236.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Graph construction Input:query Q = {w1,…wn} &lt;br /&gt; N = {d0 , ….dk } ,Q+the top k documents retrieved&lt;br /&gt; It considers three relationships between terms: co-occurrence, stemming and association.&lt;br /&gt; Here is an example:&lt;br /&gt; &lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806237.png&quot; title=&quot;1806237.png&quot; alt=&quot;1806237.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;Edge weights p(dk|Q) : the probability...</description>
+        <pubDate>Wed, 13 Jun 2018 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/paper/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/paper/</guid>
+        
+        <tag>research</tag>
+        
+      </item>
+    
+      <item>
+        <title>Compare elastic with Okapi BM25</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25&quot; id=&quot;markdown-toc-okapi-bm25&quot;&gt;Okapi BM25&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25f&quot; id=&quot;markdown-toc-okapi-bm25f&quot;&gt;Okapi BM25F&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#compared-with-elastic&quot; id=&quot;markdown-toc-compared-with-elastic&quot;&gt;Compared with Elastic&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#improvements&quot; id=&quot;markdown-toc-improvements&quot;&gt;Improvements&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;okapi-bm25&quot;&gt;Okapi BM25&lt;/h3&gt; &lt;p&gt;&lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806232.png&quot; title=&quot;1806232.png&quot; alt=&quot;1806232.png&quot; /&gt;&lt;br /&gt; &lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806233.png&quot; title=&quot;1806233.png&quot; alt=&quot;1806233.png&quot; /&gt;&lt;br /&gt; N — Size of the judged sample &lt;br /&gt; ni — Number of documents in the judged sample containing ti &lt;br /&gt; R — Relevant set size (i.e., number of documents judged relevant) &lt;br /&gt; ri — Number of judged relevant docs containing ti &lt;br /&gt; When there is relevance feedback, it is added to the w.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3...</description>
+        <pubDate>Tue, 15 May 2018 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/bm25/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/bm25/</guid>
+        
+        <tag>research</tag>
+        
+      </item>
+    
+      <item>
         <title>The city gate is open</title>
         <description>
 &lt;p&gt;城门开&lt;br /&gt;
@@ -76,8 +109,19 @@
       </item>
     
       <item>
-        <title>535.Encode and Decode TinyURL</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#problem&quot; id=&quot;markdown-toc-problem&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This is a &lt;code&gt;String&lt;/code&gt; handler problem.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt; &lt;p&gt;TinyURL is a URL shortening service where you enter a URL such as &lt;code&gt;https://leetcode.com/problems/design-tinyurl&lt;/code&gt; and it returns a short URL such as &lt;code&gt;http://tinyurl.com/4e9iAk&lt;/code&gt;.&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Design the encode and decode methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt; &lt;p&gt;To build a rule for transformation, I...</description>
+        <title>Introduction to elasticsearch</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#elasticsearch&quot; id=&quot;markdown-toc-elasticsearch&quot;&gt;Elasticsearch&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#structure&quot; id=&quot;markdown-toc-structure&quot;&gt;Structure&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#search-type&quot; id=&quot;markdown-toc-search-type&quot;&gt;Search Type&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#scoring&quot; id=&quot;markdown-toc-scoring&quot;&gt;Scoring&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;elasticsearch&quot;&gt;Elasticsearch&lt;/h3&gt; &lt;p&gt;is a search engine based on Lucene. It provides a distributed, multitenant-capable &lt;code&gt;full-text search engine&lt;/code&gt; with an HTTP web interface and schema-free JSON documents.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;structure&quot;&gt;Structure&lt;/h3&gt; &lt;p&gt;Relational DB-&amp;gt; Databases-&amp;gt; Tables-&amp;gt;Rows -&amp;gt; Columns&lt;br /&gt;  Elasticsearch-&amp;gt; Indices  -&amp;gt; Types -&amp;gt;Documents -&amp;gt; Fields&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;search-type&quot;&gt;Search Type&lt;/h3&gt; &lt;p&gt;Structured search(term)&lt;br /&gt; Full-text search(analysis)&lt;br /&gt;&lt;/p&gt; &lt;h3 id=&quot;scoring&quot;&gt;Scoring&lt;/h3&gt; &lt;p&gt;It uses Lucene’s Practical Scoring Function,combining the TF/IDF score with other factors such as the term proximity in phrase queries, or term similarity in fuzzy queries.&lt;br /&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Boolean...</description>
+        <pubDate>Wed, 14 Mar 2018 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/Elasticsearch/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/Elasticsearch/</guid>
+        
+        <tag>research</tag>
+        
+      </item>
+    
+      <item>
+        <title>leetcode535.Encode and Decode TinyURL</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#problem&quot; id=&quot;markdown-toc-problem&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Encode and Decode TinyURL&lt;br /&gt; This is a &lt;code&gt;String&lt;/code&gt; handler problem.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt; &lt;p&gt;TinyURL is a URL shortening service where you enter a URL such as &lt;code&gt;https://leetcode.com/problems/design-tinyurl&lt;/code&gt; and it returns a short URL such as &lt;code&gt;http://tinyurl.com/4e9iAk&lt;/code&gt;.&lt;br /&gt;&lt;/p&gt; &lt;p&gt;Design the encode and decode methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt; &lt;p&gt;To build...</description>
         <pubDate>Tue, 09 Jan 2018 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/LeetCode535/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/LeetCode535/</guid>
@@ -87,8 +131,8 @@
       </item>
     
       <item>
-        <title>595.Big Countries</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#problem&quot; id=&quot;markdown-toc-problem&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;So here it is.I am beginning the LeetCode train in the difficulty order(through easy to hard).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt; &lt;p&gt;&lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/595.png&quot; title=&quot;595.png&quot; alt=&quot;595.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt; &lt;p&gt;This is a simply problem which using &lt;code&gt;where&lt;/code&gt; and &lt;code&gt;or&lt;/code&gt; is enough to solve.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;select name, population, area &lt;br /&gt; from World &lt;br /&gt;where area &amp;gt; 3000000 &lt;br /&gt;or&lt;br /&gt; population &amp;gt; 25000000;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;br /&gt; After reading solutions, It seems &lt;code&gt;where&lt;/code&gt; and &lt;code&gt;union&lt;/code&gt; is also a kind of solution. Like the following:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;select name, population, area&lt;br /&gt;...</description>
+        <title>leetcode595.Big Countries</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#problem&quot; id=&quot;markdown-toc-problem&quot;&gt;Problem&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#solution&quot; id=&quot;markdown-toc-solution&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Write a SQL solution to output big countries’ info&lt;br /&gt; So here it is.I am beginning the LeetCode train in the difficulty order(through easy to hard).&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt; &lt;p&gt;&lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/595.png&quot; title=&quot;595.png&quot; alt=&quot;595.png&quot; /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt; &lt;p&gt;This is a simply problem which using &lt;code&gt;where&lt;/code&gt; and &lt;code&gt;or&lt;/code&gt; is enough to solve.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;select name, population, area &lt;br /&gt; from World &lt;br /&gt;where area &amp;gt; 3000000 &lt;br /&gt;or&lt;br /&gt; population &amp;gt; 25000000;&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;br /&gt; After reading solutions, It seems &lt;code&gt;where&lt;/code&gt; and &lt;code&gt;union&lt;/code&gt; is also a kind of...</description>
         <pubDate>Sat, 16 Dec 2017 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/LeetCode595/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/LeetCode595/</guid>

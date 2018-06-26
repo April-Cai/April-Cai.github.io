@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "A Survey of Automatic Query Expansion in Information Retrieval",
+      "tags"     : "research",
+      "url"     : "/blog/QEsurvey/",
+      "date"     : "2018-06-21 05:16:01 -0300"
+    } ,
+  
+    {
       "title"    : "Leveraging semantic resources in diversified query expansion",
       "tags"     : "research",
       "url"     : "/blog/research/",
@@ -15,6 +22,20 @@
     } ,
   
     {
+      "title"    : "Compact query term selection using topically related text.",
+      "tags"     : "research",
+      "url"     : "/blog/paper/",
+      "date"     : "2018-06-13 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "Compare elastic with Okapi BM25",
+      "tags"     : "research",
+      "url"     : "/blog/bm25/",
+      "date"     : "2018-05-15 05:16:01 -0300"
+    } ,
+  
+    {
       "title"    : "The city gate is open",
       "tags"     : "bookcomment",
       "url"     : "/blog/readingnote/",
@@ -22,14 +43,21 @@
     } ,
   
     {
-      "title"    : "535.Encode and Decode TinyURL",
+      "title"    : "Introduction to elasticsearch",
+      "tags"     : "research",
+      "url"     : "/blog/Elasticsearch/",
+      "date"     : "2018-03-14 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "leetcode535.Encode and Decode TinyURL",
       "tags"     : "leetcode",
       "url"     : "/blog/LeetCode535/",
       "date"     : "2018-01-09 05:16:01 -0300"
     } ,
   
     {
-      "title"    : "595.Big Countries",
+      "title"    : "leetcode595.Big Countries",
       "tags"     : "leetcode",
       "url"     : "/blog/LeetCode595/",
       "date"     : "2017-12-16 05:16:01 -0300"
