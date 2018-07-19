@@ -15,13 +15,6 @@
     } ,
   
     {
-      "title"    : "Say goodbye",
-      "tags"     : "disappeartomorrow",
-      "url"     : "/blog/saygoodbye/",
-      "date"     : "2018-06-20 05:16:01 -0300"
-    } ,
-  
-    {
       "title"    : "Compact query term selection using topically related text.",
       "tags"     : "research",
       "url"     : "/blog/paper/",
