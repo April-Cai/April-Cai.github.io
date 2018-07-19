@@ -7,8 +7,8 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jul 2018 10:57:00 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Jul 2018 10:57:00 +0800</lastBuildDate>
+    <pubDate>Thu, 19 Jul 2018 11:15:10 +0800</pubDate>
+    <lastBuildDate>Thu, 19 Jul 2018 11:15:10 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
       <item>
@@ -46,7 +46,7 @@
     
       <item>
         <title>Compare elastic with Okapi BM25</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25&quot; id=&quot;markdown-toc-okapi-bm25&quot;&gt;Okapi BM25&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25f&quot; id=&quot;markdown-toc-okapi-bm25f&quot;&gt;Okapi BM25F&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#compared-with-elastic&quot; id=&quot;markdown-toc-compared-with-elastic&quot;&gt;Compared with Elastic&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#improvements&quot; id=&quot;markdown-toc-improvements&quot;&gt;Improvements&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;okapi-bm25&quot;&gt;Okapi BM25&lt;/h3&gt; &lt;p&gt;&lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806232.png&quot; title=&quot;1806232.png&quot; alt=&quot;1806232.png&quot; /&gt;&lt;br /&gt; &lt;img style=&quot;float: left;&quot; class=&quot;img-responsive&quot; src=&quot;/assets/images/posts/1806233.png&quot; title=&quot;1806233.png&quot; alt=&quot;1806233.png&quot; /&gt;&lt;br /&gt; N — Size of the judged sample &lt;br /&gt; ni — Number of documents in the judged sample containing ti &lt;br /&gt; R — Relevant set size (i.e., number of documents judged relevant) &lt;br /&gt; ri — Number of judged relevant docs containing ti &lt;br /&gt; When there is relevance feedback, it is added to the w.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h3...</description>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25&quot; id=&quot;markdown-toc-okapi-bm25&quot;&gt;Okapi BM25&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#okapi-bm25f&quot; id=&quot;markdown-toc-okapi-bm25f&quot;&gt;Okapi BM25F&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#compared-with-elastic&quot; id=&quot;markdown-toc-compared-with-elastic&quot;&gt;Compared with Elastic&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#improvements&quot; id=&quot;markdown-toc-improvements&quot;&gt;Improvements&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;okapi-bm25&quot;&gt;Okapi BM25&lt;/h3&gt; &lt;div class=&quot;row imager&quot; style=&quot;margin: 40px 0px;&quot;&gt; &lt;img class=&quot;img-responsive center-block&quot; src=&quot;/assets/images/posts/1806232.png&quot; title=&quot;1806232.png&quot; alt=&quot;1806232.png&quot; /&gt; &lt;/div&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;div class=&quot;row imager&quot; style=&quot;margin: 40px 0px;&quot;&gt; &lt;img class=&quot;img-responsive center-block&quot; src=&quot;/assets/images/posts/1806233.png&quot; title=&quot;1806233.png&quot; alt=&quot;1806233.png&quot; /&gt; &lt;/div&gt; &lt;p&gt;&lt;br /&gt; N — Size of the judged sample &lt;br /&gt; ni — Number of documents in the judged sample containing ti &lt;br /&gt; R — Relevant set size (i.e., number of documents judged relevant) &lt;br /&gt; ri — Number of judged relevant docs containing ti &lt;br /&gt;...</description>
         <pubDate>Tue, 15 May 2018 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/bm25/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/bm25/</guid>
