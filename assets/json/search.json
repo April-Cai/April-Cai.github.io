@@ -1,6 +1,20 @@
 [
   
     {
+      "title"    : "Data frame with pyspark",
+      "tags"     : "dataPreprocess",
+      "url"     : "/blog/pyspark/",
+      "date"     : "2019-01-04 05:16:01 -0300"
+    } ,
+  
+    {
+      "title"    : "Data frame with pandas",
+      "tags"     : "dataPreprocess",
+      "url"     : "/blog/pandas/",
+      "date"     : "2019-01-04 05:16:01 -0300"
+    } ,
+  
+    {
       "title"    : "A Survey of Automatic Query Expansion in Information Retrieval",
       "tags"     : "research",
       "url"     : "/blog/QEsurvey/",
@@ -81,7 +95,7 @@
       "title"    : "Welcome to Jekyll!",
       "tags"     : "example",
       "url"     : "/blog/welcome-to-jekyll/",
-      "date"     : "2017-04-12 05:16:01 -0300"
+      "date"     : "2017-04-13 05:16:01 -0300"
     } 
   
 ]

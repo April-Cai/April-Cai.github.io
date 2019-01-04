@@ -7,9 +7,31 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jul 2018 11:15:10 +0800</pubDate>
-    <lastBuildDate>Thu, 19 Jul 2018 11:15:10 +0800</lastBuildDate>
+    <pubDate>Fri, 04 Jan 2019 21:32:40 +0800</pubDate>
+    <lastBuildDate>Fri, 04 Jan 2019 21:32:40 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
+    
+      <item>
+        <title>Data frame with pyspark</title>
+        <description>&lt;p&gt;Hi!&lt;/p&gt; &lt;p&gt;Data frame is like table in SQL, it can be loaded from file and operated in memory. This is the process of data-preprocessing, which can be very tedious work.&lt;/p&gt; &lt;p&gt;When data is millions, then processing in single machine is not fast enough since we are running with time.&lt;/p&gt; &lt;p&gt;Here we will use pyspark — spark in python.&lt;/p&gt; &lt;p&gt;0.import package&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark.sql&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SparkSession&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;1.create a spark instance&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SparkSession&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;appName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;spark.driver.memory&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;driver_memory&lt;/span&gt;&lt;span...</description>
+        <pubDate>Fri, 04 Jan 2019 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/pyspark/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/pyspark/</guid>
+        
+        <tag>dataPreprocess</tag>
+        
+      </item>
+    
+      <item>
+        <title>Data frame with pandas</title>
+        <description>&lt;p&gt;Hi!&lt;/p&gt; &lt;p&gt;Data frame is like table in SQL, it can be loaded from file and operated in memory. This is the process of data-preprocessing, which can be very tedious work.&lt;/p&gt; &lt;p&gt;Luckily, Pandas is a powerful tool to help us.&lt;/p&gt; &lt;p&gt;0.import package&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pd&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;1.create a data frame&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Or load from (csv) file&lt;/p&gt; &lt;p&gt;header : is not set, header is the first line&lt;/p&gt; &lt;p&gt;delimiter : if not set, delimiter is ‘,’&lt;/p&gt; &lt;p&gt;bad split setting : error_bad_lines=False,warn_bad_lines=True&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span...</description>
+        <pubDate>Fri, 04 Jan 2019 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/pandas/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/pandas/</guid>
+        
+        <tag>dataPreprocess</tag>
+        
+      </item>
     
       <item>
         <title>A Survey of Automatic Query Expansion in Information Retrieval</title>
@@ -151,7 +173,7 @@
       <item>
         <title>Welcome to Jekyll!</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#examples&quot; id=&quot;markdown-toc-examples&quot;&gt;Examples&lt;/a&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=&quot;#-table&quot; id=&quot;markdown-toc--table&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-table&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Table&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#-list&quot; id=&quot;markdown-toc--list&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-list&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; List&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#-image-responsive-plugin-imager&quot; id=&quot;markdown-toc--image-responsive-plugin-imager&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-file-image-o&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Image responsive (plugin Imager)&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#code-in-one-line---text&quot; id=&quot;markdown-toc-code-in-one-line---text&quot;&gt;Code in one line - Text&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#unlighted-code&quot; id=&quot;markdown-toc-unlighted-code&quot;&gt;Unlighted code&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#gist-code&quot; id=&quot;markdown-toc-gist-code&quot;&gt;Gist code&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#--music&quot; id=&quot;markdown-toc---music&quot;&gt;&lt;i style=&quot;font-size: 20px;&quot; class=&quot;fa fa-music&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Music&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Hi! :hand:&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;https://www.webpagefx.com/tools/emoji-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;Emoji Syntax&lt;/a&gt;&lt;/p&gt; &lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</description>
-        <pubDate>Wed, 12 Apr 2017 16:16:01 +0800</pubDate>
+        <pubDate>Thu, 13 Apr 2017 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/welcome-to-jekyll/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/welcome-to-jekyll/</guid>
         

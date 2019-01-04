@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Data frame with pandas | Typing</title>
+<meta name="description" content="">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="cache-control" content="public">
+<meta http-equiv="pragma" content="public">
+<meta name="keywords" content="Typing, Theme, Jekyll">
+<meta name="author" content="Typing Theme">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Typing">
+<meta property="og:type" content="WebSite">
+<meta property="og:url" content="https://april-cai.github.io/blog/pandas/">
+<meta property="og:description" content="Typing - A Theme for Jekyll">
+<meta property="og:title" content="Data frame with pandas - Typing">
+<link rel="canonical" href="https://april-cai.github.io/blog/pandas/">
+<link rel="alternate" type="application/rss+xml" title="Typing" href="https://april-cai.github.io/feed.xml"> <script type="application/ld+json"> {"@context": "http://schema.org", "@type": "WebSite", "name": "Typing Theme", "headline": "Typing", "author": {"@type": "Person", "name": {"Typing"}}, "description": "Typing - A Theme for Jekyll", "url": "https://april-cai.github.io"} </script> <script type="text/javascript"> var GLOBAL_BASEURL = "https://april-cai.github.io"; </script><link rel="icon" type="image/png" sizes="32x32" href="https://april-cai.github.io/assets/images/favicon/favicon-32x32.png">
+<link rel="stylesheet" href="https://april-cai.github.io/assets/vendor-off/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://april-cai.github.io/assets/vendor-off/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://april-cai.github.io/assets/vendor-off/fonts/space-mono/space-mono.min.css">
+<link rel="stylesheet" href="https://april-cai.github.io/assets/vendor-off/fonts/gloria-hallelujah/gloria-hallelujah.min.css">
+<link rel="stylesheet" href="https://april-cai.github.io/assets/stylesheets/main.css">
+</head>
+<body>
+<div class="main" id="top">
+<div class="container wrapper"><div class="row">
+<div class="col-sm-3 sidebar">
+<div class="row avatar"> <a href="https://april-cai.github.io/"> <img class="img-responsive center-block avatar-img" src="https://april-cai.github.io/assets/images/avatar/typing.svg" height="165" width="165" alt="Typing"> </a>
+</div>
+<div class="row header"><h2><a href="https://april-cai.github.io/">This is <br> April Cai. </a></h2></div>
+<div class="row menu">
+<ul>
+<li> <i class="fa fa-home" aria-hidden="true"></i> <a href="https://april-cai.github.io/">Hello</a>
+</li>
+<hr class="breakline">
+<li class="li-fa-edit"> <i style="font-size: ;" class="fa fa-edit" aria-hidden="true"></i> <a href="https://april-cai.github.io/blog/">Blog</a>
+</li>
+<li class="li-fa-search"> <i style="font-size: ;" class="fa fa-search" aria-hidden="true"></i> <a href="https://april-cai.github.io/blog/search/">Search</a>
+</li>
+<li class="li-fa-tags"> <i style="font-size: ;" class="fa fa-tags" aria-hidden="true"></i> <a href="https://april-cai.github.io/blog/tags/">Tags</a>
+</li>
+<li class="li-fa-briefcase"> <i style="font-size: ;" class="fa fa-briefcase" aria-hidden="true"></i> <a href="https://april-cai.github.io/projects/" onclick="ga('send', 'event', 'linkTo', 'https://april-cai.github.io/projects/', 'Projects');">Projects</a>
+</li>
+<li class="li-fa-file-text-o"> <i style="font-size: ;" class="fa fa-file-text-o" aria-hidden="true"></i> <a href="https://april-cai.github.io/resume/" onclick="ga('send', 'event', 'linkTo', 'https://april-cai.github.io/resume/', 'Resume');">Resume</a>
+</li>
+<li class="li-fa-envelope"> <i style="font-size: ;" class="fa fa-envelope" aria-hidden="true"></i> <a href="https://april-cai.github.io/contact/">Contact</a>
+</li>
+</ul>
+<div class="socials"><div class="row">
+<p></p>
+<p>Follow Me!</p>
+<div id="github" class="col-sm-3 columns"> <a href="https://github.com/April-Cai" target="_blank" title="GitHub" onclick="ga('send', 'event', 'linkTo', 'GitHub', 'Social Network', {useBeacon: true});"> <i class="fa fa-github icon" aria-hidden="true"></i> </a>
+</div>
+<div id="twitter" class="col-sm-3 columns"> <a href="https://twitter.com/GarciaCai007" target="_blank" title="Twitter" onclick="ga('send', 'event', 'linkTo', 'Twitter', 'Social Network', {useBeacon: true});"> <i class="fa fa-twitter icon" aria-hidden="true"></i> </a>
+</div>
+<div id="gplus" class="col-sm-3 columns"> <a href="https://plus.google.com" target="_blank" title="Google Plus" onclick="ga('send', 'event', 'linkTo', 'Google Plus', 'Social Network', {useBeacon: true});"> <i class="fa fa-google-plus icon" aria-hidden="true"></i> </a>
+</div>
+<div id="linkedin" class="col-sm-3 columns"> <a href="https://linkedin.com" target="_blank" title="LinkedIn" onclick="ga('send', 'event', 'linkTo', 'LinkedIn', 'Social Network', {useBeacon: true});"> <i class="fa fa-linkedin icon" aria-hidden="true"></i> </a>
+</div>
+</div></div>
+</div>
+</div>
+<div class="col-sm-9 content-main"><article class="post" itemscope itemtype="http://schema.org/BlogPosting"><div class="row title"><h1>Data frame with pandas</h1></div>
+<div class="row meta" datetime="2019-01-04"> <time class="col-sm-6 datetime"> <i class="fa fa-calendar" aria-hidden="true"></i><span class="text tmargin "> 04 Janeiro, 2019 </span> </time>
+</div>
+<div class="row tag-list"> <i class="fa fa-tags" aria-hidden="true"></i> <a href="https://april-cai.github.io/blog/tags//dataPreprocess">dataPreprocess</a>
+</div>
+<div class="row"> Read this in "about 2 minutes".</div>
+<div class="row content">
+<p>Hi!</p>
+<p>Data frame is like table in SQL, it can be loaded from file and operated in memory. This is the process of data-preprocessing, which can be very tedious work.</p>
+<p>Luckily, Pandas is a powerful tool to help us.</p>
+<p>0.import package</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></figure><p>1.create a data frame</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span></code></pre></figure><p>Or load from (csv) file</p>
+<p>header : is not set, header is the first line</p>
+<p>delimiter : if not set, delimiter is ‘,’</p>
+<p>bad split setting : error_bad_lines=False,warn_bad_lines=True</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="o">=</span><span class="n">file_root</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s1">'</span><span class="se">\t</span><span class="s1">'</span><span class="p">)</span></code></pre></figure><p>2.rename columns</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'old_column_name_1'</span><span class="p">:</span> <span class="s1">'new_column_name_1'</span><span class="p">,</span> <span class="s1">'old_column_name_2'</span><span class="p">:</span> <span class="s1">'new_column_name_2'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span></code></pre></figure><p>3.add a new column</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'new_column_name'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span></code></pre></figure><p>4.concat two data frames</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">add_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">one_part_df</span><span class="p">,</span> <span class="n">two_part_df</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code></pre></figure><p>5.column replace</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'None'</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">)</span></code></pre></figure><p>6.column change</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'column_name'</span><span class="p">]</span>  <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'column_name'</span><span class="p">]</span> <span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">trans_float</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">col</span><span class="p">))</span></code></pre></figure><p>7.fill null</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'column_name'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'column_name'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></code></pre></figure><p>8.remove duplicate columns</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="o">~</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">duplicated</span><span class="p">()]</span></code></pre></figure><p>9.drop some rows according to invalid value</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'column_name] == -1.0].index)</span></code></pre></figure><p>10.split into chunk when df is too large</p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span></span><span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="n">chunk_size</span><span class="p">):</span>
+    <span class="n">do_something</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span></code></pre></figure><p>Goodbye! <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20"></p>
+<hr style="border-top: 1px solid #9D9D9D ; color: #9D9D9D ;" class="endpost">
+<div class="row sharebutton"><ul class="wrapper">
+<li class="title">Share</li>
+<li class="fb"> <a href="#" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'facebook-share-dialog','width=626,height=436');return false;">Facebook</a>
+</li>
+<li class="linkedin"> <a href="http://www.linkedin.com/cws/share?url=https://april-cai.github.io/blog/pandas/" onclick='window.open(this.href,"popupwindow","status=0,height=500,width=700,resizable=0,top=50,left=100");return false;' target="_blank" title="Share on LinkedIn">Linkedin</a>
+</li>
+<li class="googleplus"> <a href="https://plus.google.com/share?url=https://april-cai.github.io/blog/pandas/" onclick='window.open(this.href,"popupwindow","status=0,height=500,width=700,resizable=0,top=50,left=100");return false;' target="_blank" title="Share on Google Plus">Google+</a>
+</li>
+</ul></div>
+<div class="day-quote">
+<div class="title"></div>
+<div class="content"></div>
+</div>
+<div class="row author">
+<div class="col-sm-2 image"> <img class="img-responsive center-block" src="https://april-cai.github.io/assets/images/author/typing.svg" alt="">
+</div>
+<div class="col-sm-10 bio">
+<p class="title">Author</p>
+<p class="name">Typing Theme</p>
+<p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora non aut eos voluptas debitis unde impedit aliquid ipsa.</p>
+</div>
+</div>
+<div class="disqus" id="comments"><div class="title"><h3>
+<i class="fa fa-comments" aria-hidden="true"></i> The comment for this post is disabled.</h3></div></div>
+</div></article></div>
+</div></div>
+<div class="footer"><div class="container-fluid"><div class="row-fluid">
+<div class="col-sm-4 copyright"> <span>Typing © 2016-2019 • All right reserved.</span>
+</div>
+<div class="col-sm-4 message"> <span>Simplicity is fashionable.</span>
+</div>
+<div class="col-sm-4 madeby"> <span>Made with <a href="https://jekyllrb.com" target="_blank">Jekyll</a> using <a href="https://github.com/williamcanin/typing-jekyll-template" target="_blank">Typing</a> Theme.</span>
+</div>
+<a class="pull-right top" href="#top"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+</div></div></div>
+</div>
+<script src="https://april-cai.github.io/assets/vendor-off/jquery/js/jquery.min.js"></script> <script src="https://april-cai.github.io/assets/vendor-off/bootstrap/js/bootstrap.min.js"></script> <script src="https://april-cai.github.io/assets/javascripts/jekyll-spotify-plugin.min.js"></script> <script type="text/javascript" src="https://april-cai.github.io/assets/javascripts/post.js"></script> <script type="text/javascript"> jQuery(document).ready(function($) { $('.post > .row.content a').addClass('ga-event'); $('.page.spage > .row.content th a').addClass('ga-event'); $('.row.content li a').removeClass('ga-event'); $('a.ga-event').attr('onclick', 'ga(\'send\',\'event\',\'linkTo\',this.href,\'https://april-cai.github.io/blog/pandas/\');'); }); </script> <script src="https://april-cai.github.io/assets/javascripts/global.js"></script>
+</body>
+</html>
