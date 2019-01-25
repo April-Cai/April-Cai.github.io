@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "ML perceptron",
+      "tags"     : "machine_learning",
+      "url"     : "/blog/ML1/",
+      "date"     : "2019-01-21 05:16:01 -0300"
+    } ,
+  
+    {
       "title"    : "Data frame with pyspark",
       "tags"     : "data_preprocess",
       "url"     : "/blog/pyspark/",
@@ -44,7 +51,7 @@
   
     {
       "title"    : "The city gate is open",
-      "tags"     : "bookcomment",
+      "tags"     : "book_comment",
       "url"     : "/blog/readingnote/",
       "date"     : "2018-04-14 05:16:01 -0300"
     } ,
@@ -79,14 +86,14 @@
   
     {
       "title"    : "Dad, where are we going",
-      "tags"     : "bookcomment",
+      "tags"     : "book_comment",
       "url"     : "/blog/dad-wherearewegoing/",
       "date"     : "2017-12-02 22:00:01 -0300"
     } ,
   
     {
       "title"    : "Active Directory",
-      "tags"     : "softwarearchitecture",
+      "tags"     : "software_architecture",
       "url"     : "/blog/active-director/",
       "date"     : "2017-12-01 05:16:01 -0300"
     } ,
