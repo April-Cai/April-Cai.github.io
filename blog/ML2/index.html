@@ -85,7 +85,7 @@
 <p>the output <script type="math/tex">y = \{+1, -1\}</script>, y is the true / false label set</p>
 <h2 id="main-idea">main idea</h2>
 <p><script type="math/tex">h(x) = sign( \sum_{i=1}^{d}w_{i}x_{i} - threshold)\\ = sign( \sum_{i=1}^{d}w_{i}x_{i} + (-threshold) \cdot (+1))\\ = sign( \sum_{i=1}^{d}w_{i}x_{i} + w_{0}\cdot x_{0})\\ = sign( \sum_{i=0}^{d}w_{i}x_{i})\\ = sign(w^{T}x)</script></p>
-<p>The <code>only</code> thing is about the trained weight matrix <script type="math/tex">w</script>.</p>
+<p>The only thing is about the trained <code>weight</code> matrix <script type="math/tex">w</script>.</p>
 <h2 id="learning-method">learning method</h2>
 <p>First, randomly initialize the <script type="math/tex">w</script>, then correct it via the samples that are wrongly classified.</p>
 <p>1.When the training step is <script type="math/tex">t</script>, the matrix is <script type="math/tex">w_{t}</script>, then a mistake point <script type="math/tex">(x_{i}, y_{i})</script> can be checked via the following condition</p>
