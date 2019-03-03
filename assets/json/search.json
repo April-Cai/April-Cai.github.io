@@ -8,7 +8,7 @@
     } ,
   
     {
-      "title"    : "ML KNN",
+      "title"    : "ML Naive Bayes",
       "tags"     : "machine_learning",
       "url"     : "/blog/ML3/",
       "date"     : "2019-01-21 05:16:01 -0300"
