@@ -7,25 +7,14 @@
     <description>Typing - A Theme for Jekyll</description>
     <link>https://april-cai.github.io/</link>
     <atom:link href="https://april-cai.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Mar 2019 10:54:08 +0800</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2019 10:54:08 +0800</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2019 10:59:40 +0800</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 10:59:40 +0800</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
-    
-      <item>
-        <title>click model terminology</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#motivation&quot; id=&quot;markdown-toc-motivation&quot;&gt;Motivation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#observation&quot; id=&quot;markdown-toc-observation&quot;&gt;Observation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#aim&quot; id=&quot;markdown-toc-aim&quot;&gt;Aim&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt; &lt;blockquote&gt; &lt;p&gt;Click models describe user behavior on a search engine result page (SERP).&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt; &lt;p&gt;Click model is to model the user’s behaviours in web search, that is to say, we want to understand what factor may lead to user’s click or skip. Then it may be easier to predict click through rate. Most importantly, it can be used to infer document relevance from clicks predicted by a click model.&lt;/p&gt; &lt;h2 id=&quot;observation&quot;&gt;Observation&lt;/h2&gt; &lt;p&gt;The whole observation process is a query &lt;code&gt;session&lt;/code&gt;: from a user enter...</description>
-        <pubDate>Sat, 16 Feb 2019 16:16:01 +0800</pubDate>
-        <link>https://april-cai.github.io/blog/click-model-2/</link>
-        <guid isPermaLink="true">https://april-cai.github.io/blog/click-model-2/</guid>
-        
-        <tag>information_retrieval</tag>
-        
-      </item>
     
       <item>
         <title>ML Naive Bayes</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#input--output&quot; id=&quot;markdown-toc-input--output&quot;&gt;Input &amp;amp; output&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#main-idea&quot; id=&quot;markdown-toc-main-idea&quot;&gt;Main idea&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#learning-method&quot; id=&quot;markdown-toc-learning-method&quot;&gt;Learning method&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#parameter-estimation&quot; id=&quot;markdown-toc-parameter-estimation&quot;&gt;Parameter estimation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#example-in-practise&quot; id=&quot;markdown-toc-example-in-practise&quot;&gt;Example in practise&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt; &lt;blockquote&gt; &lt;p&gt;Naive Bayes is a classifier which is based on Bayes equation and conditional independence.&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;input--output&quot;&gt;Input &amp;amp; output&lt;/h2&gt; &lt;p&gt;input: &lt;script type=&quot;math/tex&quot;&gt;x=(x_{1},x_{2},...,x_{d})&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension of feature vector &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;. output: &lt;script type=&quot;math/tex&quot;&gt;y \in {c_1, c_2, ..., c_K}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is the class label in &lt;script type=&quot;math/tex&quot;&gt;K&lt;/script&gt; classes. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;main-idea&quot;&gt;Main idea&lt;/h2&gt; &lt;p&gt;Based on Bayes equation&lt;/p&gt; &lt;script type=&quot;math/tex; mode=display&quot;&gt;P(w|x) = \frac {p(x|w) P(w)}{P(x)}\\ = \frac {p(w, x)}{P(x)}&lt;/script&gt;...</description>
-        <pubDate>Mon, 21 Jan 2019 16:16:01 +0800</pubDate>
+        <pubDate>Sat, 02 Mar 2019 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/ML3/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/ML3/</guid>
         
@@ -36,11 +25,22 @@
       <item>
         <title>ML KNN</title>
         <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#input--output&quot; id=&quot;markdown-toc-input--output&quot;&gt;Input &amp;amp; output&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#main-idea&quot; id=&quot;markdown-toc-main-idea&quot;&gt;Main idea&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#distance-measurement&quot; id=&quot;markdown-toc-distance-measurement&quot;&gt;Distance measurement&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#the-choice-of-k&quot; id=&quot;markdown-toc-the-choice-of-k&quot;&gt;The choice of K&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#classification-decision-rule&quot; id=&quot;markdown-toc-classification-decision-rule&quot;&gt;Classification decision rule&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#example-in-practise&quot; id=&quot;markdown-toc-example-in-practise&quot;&gt;Example in practise&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt; &lt;blockquote&gt; &lt;p&gt;KNN is k-nearest neighbour, a basic classifier which has three key elements: the choice of k, the distance measurement and classification decision rule.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;input--output&quot;&gt;Input &amp;amp; output&lt;/h2&gt; &lt;p&gt;The input &lt;script type=&quot;math/tex&quot;&gt;x=(x_{1},x_{2},...,x_{d})&lt;/script&gt;, d is the dimension of feature vector x. The output &lt;script type=&quot;math/tex&quot;&gt;y \in {c_1, c_2, ..., c_K}&lt;/script&gt;, y is the class label in K classes. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt; &lt;h2 id=&quot;main-idea&quot;&gt;Main...</description>
-        <pubDate>Mon, 21 Jan 2019 16:16:01 +0800</pubDate>
+        <pubDate>Fri, 01 Mar 2019 16:16:01 +0800</pubDate>
         <link>https://april-cai.github.io/blog/ML2/</link>
         <guid isPermaLink="true">https://april-cai.github.io/blog/ML2/</guid>
         
         <tag>machine_learning</tag>
+        
+      </item>
+    
+      <item>
+        <title>click model terminology</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt; &lt;li&gt;&lt;a href=&quot;#motivation&quot; id=&quot;markdown-toc-motivation&quot;&gt;Motivation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#observation&quot; id=&quot;markdown-toc-observation&quot;&gt;Observation&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=&quot;#aim&quot; id=&quot;markdown-toc-aim&quot;&gt;Aim&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&quot;&gt;&lt;/script&gt; &lt;blockquote&gt; &lt;p&gt;Click models describe user behavior on a search engine result page (SERP).&lt;/p&gt; &lt;/blockquote&gt; &lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt; &lt;p&gt;Click model is to model the user’s behaviours in web search, that is to say, we want to understand what factor may lead to user’s click or skip. Then it may be easier to predict click through rate. Most importantly, it can be used to infer document relevance from clicks predicted by a click model.&lt;/p&gt; &lt;h2 id=&quot;observation&quot;&gt;Observation&lt;/h2&gt; &lt;p&gt;The whole observation process is a query &lt;code&gt;session&lt;/code&gt;: from a user enter...</description>
+        <pubDate>Sat, 16 Feb 2019 16:16:01 +0800</pubDate>
+        <link>https://april-cai.github.io/blog/click-model-2/</link>
+        <guid isPermaLink="true">https://april-cai.github.io/blog/click-model-2/</guid>
+        
+        <tag>information_retrieval</tag>
         
       </item>
     
